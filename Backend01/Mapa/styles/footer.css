@@ -1,0 +1,34 @@
+footer {
+  margin-top: auto;
+  width: 100%;
+  color: #ffe7d1;
+  background: #4b8e8d;
+  padding: 0 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.credits {
+  width: 100%;
+  border-top: 1px solid #ffe7d1;
+  padding-top: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.credits strong {
+  font-weight: 300;
+}

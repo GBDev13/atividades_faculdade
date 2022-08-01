@@ -1,0 +1,27 @@
+header {
+  width: 100%;
+  background: #ffe7d1;
+  color: #4b8e8d;
+  padding: 0.5rem 1rem;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header nav a {
+  font-size: 1.2rem;
+}
+
+header img {
+  width: 300px;
+}
